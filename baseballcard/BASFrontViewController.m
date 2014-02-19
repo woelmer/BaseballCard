@@ -9,6 +9,7 @@
 #import "BASFrontViewController.h"
 
 @interface BASFrontViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *pictureImageView;
 
 @end
 
