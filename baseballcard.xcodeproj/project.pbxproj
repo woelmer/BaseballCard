@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBD4169118B538370076AFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169018B538370076AFE7 /* Foundation.framework */; };
+		CBD4169318B538370076AFE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169218B538370076AFE7 /* CoreGraphics.framework */; };
+		CBD4169518B538370076AFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169418B538370076AFE7 /* UIKit.framework */; };
+		CBD4169B18B538370076AFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBD4169918B538370076AFE7 /* InfoPlist.strings */; };
+		CBD4169D18B538370076AFE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD4169C18B538370076AFE7 /* main.m */; };
+		CBD416A118B538370076AFE7 /* BASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416A018B538370076AFE7 /* BASAppDelegate.m */; };
+		CBD416A418B538370076AFE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD416A218B538370076AFE7 /* Main.storyboard */; };
+		CBD416A718B538370076AFE7 /* BASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416A618B538370076AFE7 /* BASViewController.m */; };
+		CBD416A918B538370076AFE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD416A818B538370076AFE7 /* Images.xcassets */; };
+		CBD416B018B538370076AFE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD416AF18B538370076AFE7 /* XCTest.framework */; };
+		CBD416B118B538370076AFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169018B538370076AFE7 /* Foundation.framework */; };
+		CBD416B218B538370076AFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169418B538370076AFE7 /* UIKit.framework */; };
+		CBD416BA18B538370076AFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBD416B818B538370076AFE7 /* InfoPlist.strings */; };
+		CBD416BC18B538370076AFE7 /* baseballcardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416BB18B538370076AFE7 /* baseballcardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBD416B318B538370076AFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD4168518B538370076AFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD4168C18B538370076AFE7;
+			remoteInfo = baseballcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBD4168D18B538370076AFE7 /* baseballcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baseballcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD4169018B538370076AFE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBD4169218B538370076AFE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBD4169418B538370076AFE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBD4169818B538370076AFE7 /* baseballcard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baseballcard-Info.plist"; sourceTree = "<group>"; };
+		CBD4169A18B538370076AFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBD4169C18B538370076AFE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBD4169E18B538370076AFE7 /* baseballcard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baseballcard-Prefix.pch"; sourceTree = "<group>"; };
+		CBD4169F18B538370076AFE7 /* BASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASAppDelegate.h; sourceTree = "<group>"; };
+		CBD416A018B538370076AFE7 /* BASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASAppDelegate.m; sourceTree = "<group>"; };
+		CBD416A318B538370076AFE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD416A518B538370076AFE7 /* BASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BASViewController.h; sourceTree = "<group>"; };
+		CBD416A618B538370076AFE7 /* BASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BASViewController.m; sourceTree = "<group>"; };
+		CBD416A818B538370076AFE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBD416AE18B538370076AFE7 /* baseballcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baseballcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD416AF18B538370076AFE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CBD416B718B538370076AFE7 /* baseballcardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baseballcardTests-Info.plist"; sourceTree = "<group>"; };
+		CBD416B918B538370076AFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBD416BB18B538370076AFE7 /* baseballcardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseballcardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD4168A18B538370076AFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD4169318B538370076AFE7 /* CoreGraphics.framework in Frameworks */,
+				CBD4169518B538370076AFE7 /* UIKit.framework in Frameworks */,
+				CBD4169118B538370076AFE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD416AB18B538370076AFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD416B018B538370076AFE7 /* XCTest.framework in Frameworks */,
+				CBD416B218B538370076AFE7 /* UIKit.framework in Frameworks */,
+				CBD416B118B538370076AFE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD4168418B538370076AFE7 = {
+			isa = PBXGroup;
+			children = (
+				CBD4169618B538370076AFE7 /* baseballcard */,
+				CBD416B518B538370076AFE7 /* baseballcardTests */,
+				CBD4168F18B538370076AFE7 /* Frameworks */,
+				CBD4168E18B538370076AFE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD4168E18B538370076AFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4168D18B538370076AFE7 /* baseballcard.app */,
+				CBD416AE18B538370076AFE7 /* baseballcardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD4168F18B538370076AFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4169018B538370076AFE7 /* Foundation.framework */,
+				CBD4169218B538370076AFE7 /* CoreGraphics.framework */,
+				CBD4169418B538370076AFE7 /* UIKit.framework */,
+				CBD416AF18B538370076AFE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD4169618B538370076AFE7 /* baseballcard */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4169F18B538370076AFE7 /* BASAppDelegate.h */,
+				CBD416A018B538370076AFE7 /* BASAppDelegate.m */,
+				CBD416A218B538370076AFE7 /* Main.storyboard */,
+				CBD416A518B538370076AFE7 /* BASViewController.h */,
+				CBD416A618B538370076AFE7 /* BASViewController.m */,
+				CBD416A818B538370076AFE7 /* Images.xcassets */,
+				CBD4169718B538370076AFE7 /* Supporting Files */,
+			);
+			path = baseballcard;
+			sourceTree = "<group>";
+		};
+		CBD4169718B538370076AFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBD4169818B538370076AFE7 /* baseballcard-Info.plist */,
+				CBD4169918B538370076AFE7 /* InfoPlist.strings */,
+				CBD4169C18B538370076AFE7 /* main.m */,
+				CBD4169E18B538370076AFE7 /* baseballcard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBD416B518B538370076AFE7 /* baseballcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD416BB18B538370076AFE7 /* baseballcardTests.m */,
+				CBD416B618B538370076AFE7 /* Supporting Files */,
+			);
+			path = baseballcardTests;
+			sourceTree = "<group>";
+		};
+		CBD416B618B538370076AFE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBD416B718B538370076AFE7 /* baseballcardTests-Info.plist */,
+				CBD416B818B538370076AFE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD4168C18B538370076AFE7 /* baseballcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD416BF18B538370076AFE7 /* Build configuration list for PBXNativeTarget "baseballcard" */;
+			buildPhases = (
+				CBD4168918B538370076AFE7 /* Sources */,
+				CBD4168A18B538370076AFE7 /* Frameworks */,
+				CBD4168B18B538370076AFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baseballcard;
+			productName = baseballcard;
+			productReference = CBD4168D18B538370076AFE7 /* baseballcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBD416AD18B538370076AFE7 /* baseballcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD416C218B538370076AFE7 /* Build configuration list for PBXNativeTarget "baseballcardTests" */;
+			buildPhases = (
+				CBD416AA18B538370076AFE7 /* Sources */,
+				CBD416AB18B538370076AFE7 /* Frameworks */,
+				CBD416AC18B538370076AFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD416B418B538370076AFE7 /* PBXTargetDependency */,
+			);
+			name = baseballcardTests;
+			productName = baseballcardTests;
+			productReference = CBD416AE18B538370076AFE7 /* baseballcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD4168518B538370076AFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BAS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = atomicobject;
+				TargetAttributes = {
+					CBD416AD18B538370076AFE7 = {
+						TestTargetID = CBD4168C18B538370076AFE7;
+					};
+				};
+			};
+			buildConfigurationList = CBD4168818B538370076AFE7 /* Build configuration list for PBXProject "baseballcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD4168418B538370076AFE7;
+			productRefGroup = CBD4168E18B538370076AFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD4168C18B538370076AFE7 /* baseballcard */,
+				CBD416AD18B538370076AFE7 /* baseballcardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD4168B18B538370076AFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD416A918B538370076AFE7 /* Images.xcassets in Resources */,
+				CBD4169B18B538370076AFE7 /* InfoPlist.strings in Resources */,
+				CBD416A418B538370076AFE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD416AC18B538370076AFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD416BA18B538370076AFE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD4168918B538370076AFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD4169D18B538370076AFE7 /* main.m in Sources */,
+				CBD416A718B538370076AFE7 /* BASViewController.m in Sources */,
+				CBD416A118B538370076AFE7 /* BASAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD416AA18B538370076AFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD416BC18B538370076AFE7 /* baseballcardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBD416B418B538370076AFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD4168C18B538370076AFE7 /* baseballcard */;
+			targetProxy = CBD416B318B538370076AFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBD4169918B538370076AFE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD4169A18B538370076AFE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBD416A218B538370076AFE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD416A318B538370076AFE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD416B818B538370076AFE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD416B918B538370076AFE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD416BD18B538370076AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBD416BE18B538370076AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD416C018B538370076AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
+				INFOPLIST_FILE = "baseballcard/baseballcard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBD416C118B538370076AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
+				INFOPLIST_FILE = "baseballcard/baseballcard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBD416C318B538370076AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baseballcard.app/baseballcard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "baseballcardTests/baseballcardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CBD416C418B538370076AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baseballcard.app/baseballcard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
+				INFOPLIST_FILE = "baseballcardTests/baseballcardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD4168818B538370076AFE7 /* Build configuration list for PBXProject "baseballcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD416BD18B538370076AFE7 /* Debug */,
+				CBD416BE18B538370076AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD416BF18B538370076AFE7 /* Build configuration list for PBXNativeTarget "baseballcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD416C018B538370076AFE7 /* Debug */,
+				CBD416C118B538370076AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBD416C218B538370076AFE7 /* Build configuration list for PBXNativeTarget "baseballcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD416C318B538370076AFE7 /* Debug */,
+				CBD416C418B538370076AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD4168518B538370076AFE7 /* Project object */;
+}
