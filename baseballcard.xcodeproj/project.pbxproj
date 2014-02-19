@@ -21,6 +21,10 @@
 		CBD416B218B538370076AFE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD4169418B538370076AFE7 /* UIKit.framework */; };
 		CBD416BA18B538370076AFE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBD416B818B538370076AFE7 /* InfoPlist.strings */; };
 		CBD416BC18B538370076AFE7 /* baseballcardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416BB18B538370076AFE7 /* baseballcardTests.m */; };
+		CBD416C718B544760076AFE7 /* BASFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416C618B544760076AFE7 /* BASFrontViewController.m */; };
+		CBD416CA18B544860076AFE7 /* BASBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416C918B544860076AFE7 /* BASBackViewController.m */; };
+		CBD416CD18B5449A0076AFE7 /* BASEditFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416CC18B5449A0076AFE7 /* BASEditFrontViewController.m */; };
+		CBD416D018B544AD0076AFE7 /* BASEditBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD416CF18B544AD0076AFE7 /* BASEditBackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		CBD416B718B538370076AFE7 /* baseballcardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baseballcardTests-Info.plist"; sourceTree = "<group>"; };
 		CBD416B918B538370076AFE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBD416BB18B538370076AFE7 /* baseballcardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseballcardTests.m; sourceTree = "<group>"; };
+		CBD416C518B544760076AFE7 /* BASFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASFrontViewController.h; sourceTree = "<group>"; };
+		CBD416C618B544760076AFE7 /* BASFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASFrontViewController.m; sourceTree = "<group>"; };
+		CBD416C818B544860076AFE7 /* BASBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASBackViewController.h; sourceTree = "<group>"; };
+		CBD416C918B544860076AFE7 /* BASBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASBackViewController.m; sourceTree = "<group>"; };
+		CBD416CB18B5449A0076AFE7 /* BASEditFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASEditFrontViewController.h; sourceTree = "<group>"; };
+		CBD416CC18B5449A0076AFE7 /* BASEditFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASEditFrontViewController.m; sourceTree = "<group>"; };
+		CBD416CE18B544AD0076AFE7 /* BASEditBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASEditBackViewController.h; sourceTree = "<group>"; };
+		CBD416CF18B544AD0076AFE7 /* BASEditBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASEditBackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,14 @@
 				CBD416A618B538370076AFE7 /* BASViewController.m */,
 				CBD416A818B538370076AFE7 /* Images.xcassets */,
 				CBD4169718B538370076AFE7 /* Supporting Files */,
+				CBD416C518B544760076AFE7 /* BASFrontViewController.h */,
+				CBD416C618B544760076AFE7 /* BASFrontViewController.m */,
+				CBD416C818B544860076AFE7 /* BASBackViewController.h */,
+				CBD416C918B544860076AFE7 /* BASBackViewController.m */,
+				CBD416CB18B5449A0076AFE7 /* BASEditFrontViewController.h */,
+				CBD416CC18B5449A0076AFE7 /* BASEditFrontViewController.m */,
+				CBD416CE18B544AD0076AFE7 /* BASEditBackViewController.h */,
+				CBD416CF18B544AD0076AFE7 /* BASEditBackViewController.m */,
 			);
 			path = baseballcard;
 			sourceTree = "<group>";
@@ -200,6 +220,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = atomicobject;
 				TargetAttributes = {
+					CBD4168C18B538370076AFE7 = {
+						DevelopmentTeam = 322SA5VGT8;
+					};
 					CBD416AD18B538370076AFE7 = {
 						TestTargetID = CBD4168C18B538370076AFE7;
 					};
@@ -251,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD4169D18B538370076AFE7 /* main.m in Sources */,
+				CBD416CD18B5449A0076AFE7 /* BASEditFrontViewController.m in Sources */,
+				CBD416C718B544760076AFE7 /* BASFrontViewController.m in Sources */,
 				CBD416A718B538370076AFE7 /* BASViewController.m in Sources */,
 				CBD416A118B538370076AFE7 /* BASAppDelegate.m in Sources */,
+				CBD416CA18B544860076AFE7 /* BASBackViewController.m in Sources */,
+				CBD416D018B544AD0076AFE7 /* BASEditBackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
 				INFOPLIST_FILE = "baseballcard/baseballcard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +422,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "baseballcard/baseballcard-Prefix.pch";
 				INFOPLIST_FILE = "baseballcard/baseballcard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
