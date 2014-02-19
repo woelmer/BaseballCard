@@ -9,6 +9,7 @@
 #import "BASBackViewController.h"
 
 @interface BASBackViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 
 @end
 

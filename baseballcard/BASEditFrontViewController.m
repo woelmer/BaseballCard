@@ -38,4 +38,7 @@
 - (IBAction)previewAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (IBAction)takeAPicture:(id)sender {
+}
 @end
