@@ -56,12 +56,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-Z0-P2b" userLabel="Picture">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Silhouette" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-Z0-P2b" userLabel="Picture">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="448"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRp-c2-af9" userLabel="Overlay">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FrontOverlay" translatesAutoresizingMaskIntoConstraints="NO" id="MRp-c2-af9" userLabel="Overlay">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="448"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -247,6 +247,10 @@
             <point key="canvasLocation" x="521" y="108"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FrontOverlay" width="320" height="448"/>
+        <image name="Silhouette" width="320" height="448"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
