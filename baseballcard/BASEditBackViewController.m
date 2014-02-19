@@ -34,5 +34,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)previewAction:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end

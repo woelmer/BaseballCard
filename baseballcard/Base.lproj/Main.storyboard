@@ -56,12 +56,17 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-Z0-P2b">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-Z0-P2b" userLabel="Picture">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRp-c2-af9" userLabel="Overlay">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="448"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="yP5-WF-wTi" appends="YES" id="Ilj-AH-ccI"/>
+                                    <outletCollection property="gestureRecognizers" destination="ikO-Ou-jSw" appends="YES" id="V5P-A9-T2I"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Front" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dz5-ev-GHj">
@@ -74,15 +79,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VXw-GQ-u1T"/>
+                    <connections>
+                        <outlet property="pictureImageView" destination="HWC-Z0-P2b" id="2jm-4p-B2q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="yP5-WF-wTi">
+                <swipeGestureRecognizer direction="left" id="ikO-Ou-jSw">
                     <connections>
-                        <segue destination="RgA-db-s2y" kind="push" id="pvR-i7-DEc"/>
+                        <segue destination="RgA-db-s2y" kind="push" id="AOI-Z0-2oa"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="138" y="108"/>
+            <point key="canvasLocation" x="144" y="108"/>
         </scene>
         <!--Edit Front-->
         <scene sceneID="jyI-Rh-q1q">
@@ -108,7 +116,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="vXZ-lx-hvc" kind="push" id="vdK-T4-zLL"/>
+                                            <action selector="previewAction:" destination="zbW-fi-TNp" eventType="touchUpInside" id="lnM-4z-DuZ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -154,7 +162,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="RgA-db-s2y" kind="push" id="yIG-a0-aaJ"/>
+                                            <action selector="previewAction:" destination="Lkw-eC-fsN" eventType="touchUpInside" id="KzO-Oi-hwL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -244,8 +252,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="vdK-T4-zLL"/>
-        <segue reference="yIG-a0-aaJ"/>
-    </inferredMetricsTieBreakers>
 </document>
